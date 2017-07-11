@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YPFoundation_Example' do
+  pod 'YPFoundation', :path => '../'
+
+  target 'YPFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
