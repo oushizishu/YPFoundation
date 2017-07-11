@@ -36,7 +36,8 @@ TODO: Add long description of the pod here.
   #   'YPFoundation' => ['YPFoundation/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.requires_arc = true
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'Security'
+
 end
