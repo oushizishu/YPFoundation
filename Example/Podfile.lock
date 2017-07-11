@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YPFoundation: 26a93b191ef292d5e06491dc318a7ee3ce65cdd0
+  YPFoundation: fdb76b76450283e0ec5b0c907a2a5bf332b1e5a4
 
 PODFILE CHECKSUM: 9d0dec717d7c0608783cc10ef3cf3858c4ae7b8a
 

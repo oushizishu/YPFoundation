@@ -7,64 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A6214E5A415ED45F9C026353B6C0F7 /* NSString+BJCFEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BFB98410F5D5285EB3E6AF2A0602C2 /* NSString+BJCFEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01808B8F836A5B8A71D75B3DFC179257 /* BJCFAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F535A2C1541AF44960904DBB52177AFA /* BJCFAction.m */; };
 		04C10B1EF61DA335A485CFA221790E49 /* Pods-YPFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9183C73F208FF836FE310D6F3D4DB7D3 /* Pods-YPFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		082EE24D23842091B72CACF14F160E92 /* YPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 575FCB9EF4F8257510E620559D4D7D75 /* YPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28EDF3BE1F14D9D000B03172 /* BJCFAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3861F14D9D000B03172 /* BJCFAction.h */; };
-		28EDF3BF1F14D9D000B03172 /* BJCFAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3871F14D9D000B03172 /* BJCFAction.m */; };
-		28EDF3C01F14D9D000B03172 /* BJCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3881F14D9D000B03172 /* BJCommonDefines.h */; };
-		28EDF3C11F14D9D000B03172 /* BJHL-Foundation-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3891F14D9D000B03172 /* BJHL-Foundation-iOS.h */; };
-		28EDF3C21F14D9D000B03172 /* BJHL-Foundation-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF38A1F14D9D000B03172 /* BJHL-Foundation-iOS.m */; };
-		28EDF3C31F14D9D000B03172 /* BJCFError.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF38C1F14D9D000B03172 /* BJCFError.h */; };
-		28EDF3C41F14D9D000B03172 /* BJCFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF38D1F14D9D000B03172 /* BJCFError.m */; };
-		28EDF3C51F14D9D000B03172 /* NSString+BJCFError.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF38E1F14D9D000B03172 /* NSString+BJCFError.h */; };
-		28EDF3C61F14D9D000B03172 /* NSString+BJCFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF38F1F14D9D000B03172 /* NSString+BJCFError.m */; };
-		28EDF3C71F14D9D000B03172 /* BJCFCacheManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3911F14D9D000B03172 /* BJCFCacheManagerTool.h */; };
-		28EDF3C81F14D9D000B03172 /* BJCFCacheManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3921F14D9D000B03172 /* BJCFCacheManagerTool.m */; };
-		28EDF3C91F14D9D000B03172 /* BJCFFileManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3931F14D9D000B03172 /* BJCFFileManagerTool.h */; };
-		28EDF3CA1F14D9D000B03172 /* BJCFFileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3941F14D9D000B03172 /* BJCFFileManagerTool.m */; };
-		28EDF3CB1F14D9D000B03172 /* BJCFJockey.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3961F14D9D000B03172 /* BJCFJockey.h */; };
-		28EDF3CC1F14D9D000B03172 /* BJCFJockey.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3971F14D9D000B03172 /* BJCFJockey.m */; };
-		28EDF3CD1F14D9D000B03172 /* BJCFKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3991F14D9D000B03172 /* BJCFKeychain.h */; };
-		28EDF3CE1F14D9D000B03172 /* BJCFKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF39A1F14D9D000B03172 /* BJCFKeychain.m */; };
-		28EDF3CF1F14D9D000B03172 /* BJCFKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF39B1F14D9D000B03172 /* BJCFKeychainQuery.h */; };
-		28EDF3D01F14D9D000B03172 /* BJCFKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF39C1F14D9D000B03172 /* BJCFKeychainQuery.m */; };
-		28EDF3D11F14D9D000B03172 /* BJCFJSONUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3A01F14D9D000B03172 /* BJCFJSONUtils.h */; };
-		28EDF3D21F14D9D000B03172 /* BJCFJSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3A11F14D9D000B03172 /* BJCFJSONUtils.m */; };
-		28EDF3D31F14D9D000B03172 /* BJCFTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3A21F14D9D000B03172 /* BJCFTimer.h */; };
-		28EDF3D41F14D9D000B03172 /* BJCFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3A31F14D9D000B03172 /* BJCFTimer.m */; };
-		28EDF3D51F14D9D000B03172 /* NSArray+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3A41F14D9D000B03172 /* NSArray+BJCF.h */; };
-		28EDF3D61F14D9D000B03172 /* NSArray+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3A51F14D9D000B03172 /* NSArray+BJCF.m */; };
-		28EDF3D71F14D9D000B03172 /* NSDate+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3A61F14D9D000B03172 /* NSDate+BJCF.h */; };
-		28EDF3D81F14D9D000B03172 /* NSDate+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3A71F14D9D000B03172 /* NSDate+BJCF.m */; };
-		28EDF3D91F14D9D000B03172 /* NSDateFormatter+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3A81F14D9D000B03172 /* NSDateFormatter+BJCF.h */; };
-		28EDF3DA1F14D9D000B03172 /* NSDateFormatter+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3A91F14D9D000B03172 /* NSDateFormatter+BJCF.m */; };
-		28EDF3DB1F14D9D000B03172 /* NSDictionary+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3AA1F14D9D000B03172 /* NSDictionary+BJCF.h */; };
-		28EDF3DC1F14D9D000B03172 /* NSDictionary+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3AB1F14D9D000B03172 /* NSDictionary+BJCF.m */; };
-		28EDF3DD1F14D9D000B03172 /* NSDictionary+BJCFDataValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3AC1F14D9D000B03172 /* NSDictionary+BJCFDataValue.h */; };
-		28EDF3DE1F14D9D000B03172 /* NSDictionary+BJCFDataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3AD1F14D9D000B03172 /* NSDictionary+BJCFDataValue.m */; };
-		28EDF3DF1F14D9D000B03172 /* NSObject+BJCFBlockKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3AE1F14D9D000B03172 /* NSObject+BJCFBlockKVO.h */; };
-		28EDF3E01F14D9D000B03172 /* NSObject+BJCFBlockKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3AF1F14D9D000B03172 /* NSObject+BJCFBlockKVO.m */; };
-		28EDF3E11F14D9D000B03172 /* NSString+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3B01F14D9D000B03172 /* NSString+BJCF.h */; };
-		28EDF3E21F14D9D000B03172 /* NSString+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3B11F14D9D000B03172 /* NSString+BJCF.m */; };
-		28EDF3E31F14D9D000B03172 /* NSString+BJCFEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3B21F14D9D000B03172 /* NSString+BJCFEncoding.h */; };
-		28EDF3E41F14D9D000B03172 /* NSString+BJCFEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3B31F14D9D000B03172 /* NSString+BJCFEncoding.m */; };
-		28EDF3E51F14D9D000B03172 /* NSString+BJCFMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3B41F14D9D000B03172 /* NSString+BJCFMD5.h */; };
-		28EDF3E61F14D9D000B03172 /* NSString+BJCFMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3B51F14D9D000B03172 /* NSString+BJCFMD5.m */; };
-		28EDF3E71F14D9D000B03172 /* NSString+BJCFSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3B61F14D9D000B03172 /* NSString+BJCFSize.h */; };
-		28EDF3E81F14D9D000B03172 /* NSString+BJCFSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3B71F14D9D000B03172 /* NSString+BJCFSize.m */; };
-		28EDF3E91F14D9D000B03172 /* NSString+BJCFVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3B81F14D9D000B03172 /* NSString+BJCFVersion.h */; };
-		28EDF3EA1F14D9D000B03172 /* NSString+BJCFVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3B91F14D9D000B03172 /* NSString+BJCFVersion.m */; };
-		28EDF3EB1F14D9D000B03172 /* NSURL+BJCFURLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3BA1F14D9D000B03172 /* NSURL+BJCFURLQuery.h */; };
-		28EDF3EC1F14D9D000B03172 /* NSURL+BJCFURLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3BB1F14D9D000B03172 /* NSURL+BJCFURLQuery.m */; };
-		28EDF3ED1F14D9D000B03172 /* UIDevice+BJCFIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDF3BC1F14D9D000B03172 /* UIDevice+BJCFIdentifier.h */; };
-		28EDF3EE1F14D9D000B03172 /* UIDevice+BJCFIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF3BD1F14D9D000B03172 /* UIDevice+BJCFIdentifier.m */; };
+		0CBD594907E3B12B4AC1DBB6B7376280 /* BJCFCacheManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B00FAD893B61CCC0BD9242EFAF7F0C2 /* BJCFCacheManagerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3934B10EA64398FD13054E313DDAA8 /* NSDictionary+BJCFDataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D21863F1D9C966829492B4BFE8CBA10C /* NSDictionary+BJCFDataValue.m */; };
+		154FBF5689EE7FAB8D6D4602CEF088FA /* NSString+BJCFVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 20255685BA9A6CBF46C88C90B74C2978 /* NSString+BJCFVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A4962094E3720C7F24418C27A6DC045 /* NSDictionary+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C57AA7AEB544972FC7F816002D54EA7 /* NSDictionary+BJCF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E90C9706591BDCDD20BB43779B99B34 /* BJCFFileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6256846A4281A2580347DE0516793 /* BJCFFileManagerTool.m */; };
+		24CEA53636C46E69B2C909AA230C1980 /* NSDateFormatter+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 7174696CC3FF555E0F21FB9AF04B534C /* NSDateFormatter+BJCF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4BBEF70F8097E9E0A8F03F9D7252EB /* NSString+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17EF256A1DCB4F41B0B562D1C25439 /* NSString+BJCF.m */; };
+		31B6AB2622BADE0B3EA6D3710C3A426C /* BJCFKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3736081BE19094A350E06987C2DADABC /* BJCFKeychainQuery.m */; };
+		34F83A4C97F72769327FF00FDCCCAB91 /* NSDateFormatter+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 40427E47705AB9D66FF9BB0AA55928CF /* NSDateFormatter+BJCF.m */; };
+		39D04359F9EAD2E6094C03333F5F22F6 /* NSArray+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 72FED2A437E28C7F261E7A3BE140A2F0 /* NSArray+BJCF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5D0CA55B577730694AACBCF0A88AA6 /* NSDate+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 979BE42DB2522679540A1D4BF0604E62 /* NSDate+BJCF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FBF58D43961D7836CDB2EEDB4F9E9B7 /* BJCFJockey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D373DAD6002C1D499C7129321CFD9 /* BJCFJockey.m */; };
 		415B7B0D7615E123BFA89A639B005F35 /* Pods-YPFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B99745DBB5E9DB4EF024AA263DC6EAF3 /* Pods-YPFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4655AE4FE29172BB00F257760710C8C4 /* NSString+BJCFVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CC1052F9A2CC15C275B1ADF4A2A10 /* NSString+BJCFVersion.m */; };
+		4D0E2D4D52D29F42F024747211C2565B /* BJCFCacheManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DFE587DEFCD1641C10E67F0423233 /* BJCFCacheManagerTool.m */; };
+		4FE720D91C2125FA1DE6A1F5EB163EFE /* NSString+BJCFEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 153531846C8F826DBE984D9EA701F331 /* NSString+BJCFEncoding.m */; };
+		523D45B54BD49B92472E1FA07004AC89 /* SSKeychain.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5238DF37BFFB71E806198B0297591328 /* SSKeychain.strings */; };
+		539196D983EEBD2A7BE58ECE07066D47 /* BJHL-Foundation-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300723ADE48D3A0AA79ADDAD0E82110 /* BJHL-Foundation-iOS.m */; };
 		53AA034FDCED8446C0B792A5B3F2E36E /* Pods-YPFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E96FD4D01991B6A5922DE8649E564A7 /* Pods-YPFoundation_Example-dummy.m */; };
-		6098042469203DF3217B5252D7D08733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5632E38720991E611BE0E48CB4E70984 /* NSString+BJCFError.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D614FB870075CDDFD88C258F326EE1 /* NSString+BJCFError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573460D16F498B84650FB56DCB3EC1E8 /* BJCFTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = B07AD667C91CA8AE63196D79CB216A7E /* BJCFTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6098042469203DF3217B5252D7D08733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		62E30EB7DB97575C8D21DF8CBA316A21 /* YPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A63B8329717499B6E9665FDEC1F7490 /* YPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD1067B49808EA9ECC37519B9CED077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		6E4600CEF58BECC5DAAB70F0919D78AE /* NSString+BJCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 03927BB842A13D7019B33B68DAB284DF /* NSString+BJCF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E87C83414DACB78A0495B9EAE152D8E /* Pods-YPFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C318D1F584A4701BFFBE6B1A17E94 /* Pods-YPFoundation_Tests-dummy.m */; };
-		7614F4CC6E366A9C8BC224E2F039FDEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C322E7B559D4F94757C5A85D956E5B72 /* YPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D2DA1E37FC319987C0AFBEF61CADC3 /* YPFoundation-dummy.m */; };
-		FBAD123D5FB690A21FBF8856639A5A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7614F4CC6E366A9C8BC224E2F039FDEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		82C04F97E68E95F7EED60E42695A38D9 /* NSString+BJCFError.m in Sources */ = {isa = PBXBuildFile; fileRef = A84910C5F2218D4D50BBA2305218D732 /* NSString+BJCFError.m */; };
+		8D99168008443C74A992A8B73302C5FD /* BJCFError.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DF022BCE7B64B687E39FCA2E977E27 /* BJCFError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		900730042CD88712048D95D1BB87B4C5 /* BJCFJSONUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D086DDDC627A3AEB4D996FB79331E8 /* BJCFJSONUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905295841F190E2815FD84736375E42B /* NSObject+BJCFBlockKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 86199BB82EFA0B283E31FC6081785E10 /* NSObject+BJCFBlockKVO.m */; };
+		90C9A69D3CF52F2F1A6CFF7EA38BBBF6 /* UIDevice+BJCFIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A6DD8EFDBF5494C13F194AD7B55975 /* UIDevice+BJCFIdentifier.m */; };
+		912AA59C2208149971BC62636EA1B446 /* BJHL-Foundation-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E67B93573B105E640F89A1F6D2D213BC /* BJHL-Foundation-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA7FFDA48B2690135932C8ED428534F /* UIDevice+BJCFIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA9C65FCE7D45EEDF24A3F27952901F /* UIDevice+BJCFIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D01213303F470DB8DAAAE9681FCFAA8 /* BJCFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BCF40F83409C806C969A2129B532AA /* BJCFTimer.m */; };
+		A0ABCA1B999D6A416A49FDE3E573174E /* NSDictionary+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = D426DC2351B2381A9B617853AA63B986 /* NSDictionary+BJCF.m */; };
+		A20F9EC50DCFCD379A24825ECD3749AA /* NSArray+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = 473D6D0DD588344E5C1A4457D730ADA9 /* NSArray+BJCF.m */; };
+		A249D8F9B01032FB27177896D764979F /* BJCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C7839525D564B7588A5B4C06A45757 /* BJCommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54A1F865719930E586FECF8C7ED3827 /* BJCFJSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B99D59E5476A42F709489E4FD7ABB /* BJCFJSONUtils.m */; };
+		A962EF9E7ECDC3A552699C60C17019C1 /* BJCFFileManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FCACB547DD97EA518F84E21095AA4298 /* BJCFFileManagerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15C763A68BAB434FEAD3EE499D2ADCC /* NSDictionary+BJCFDataValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A83A8E3853FE6B49C820AD4DDDFCB80 /* NSDictionary+BJCFDataValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B509358A53EA871D34D6A93DE6298DE5 /* BJCFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF8C84E11B9BA9C7E424A19B02D3868 /* BJCFError.m */; };
+		C174C2243E7D6A8FD74597F393F2F32B /* NSObject+BJCFBlockKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 475A13FB2BCE394ECB7EAF56F14C8B92 /* NSObject+BJCFBlockKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C604E96F2A4B7532DF0DEF5F5FADA203 /* NSString+BJCFMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C908667F9ADA0B2196D2EF3DA4A6F4 /* NSString+BJCFMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61EF326743CC2B95A4CB59996878D37 /* BJCFJockey.h in Headers */ = {isa = PBXBuildFile; fileRef = 86708D51C2586C5FD7A9DBD3F07FC54A /* BJCFJockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA2F277C9BE807972BE89F05DE958D8 /* NSString+BJCFMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368D93A53823CA92D75C7B731304BF7 /* NSString+BJCFMD5.m */; };
+		CCDCD783E7C63DFB05C240103D88FA8D /* BJCFKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 81174452DBA222EAEEA1A5D02C06DD86 /* BJCFKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4EC2C283B75413F53CA651479A5EA6 /* NSURL+BJCFURLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BE8197510D55ABBAF3DF5CE774319F /* NSURL+BJCFURLQuery.m */; };
+		D4A91D8B60C04368A4957FD90B90120D /* BJCFKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF880567117E32F4AD69B91364F0D9 /* BJCFKeychain.m */; };
+		D906720402FA1EAC9DC0C223749AEC79 /* NSDate+BJCF.m in Sources */ = {isa = PBXBuildFile; fileRef = F24C0C9D8F06D0404D648923C69EE819 /* NSDate+BJCF.m */; };
+		DCB7B18175BC058E90931210586CB1DF /* BJCFAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 375280DD038F9E69A48D4043838D9B07 /* BJCFAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA202F690640BCE8D74ADF4B570E17E /* NSURL+BJCFURLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F967676A69DF007109FCB836D4077DE /* NSURL+BJCFURLQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE35C082B04894391054D64B6CF8D98D /* NSString+BJCFSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3323D9D57D311FEFB149E5AEA9CC2 /* NSString+BJCFSize.m */; };
+		E1335D869B028ABCC91F2F8B8AB3F311 /* BJCFKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 71026C3D06F8FB4D80DA3708C2D517B3 /* BJCFKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5EFD1E4BED8DFED4F0B82BD68167D24 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
+		F787E166D62635B53B8EAFCFC991C92A /* YPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C81E0FF7CBACB46E30BE15E3603DE13 /* YPFoundation-dummy.m */; };
+		F8F2488361936C878CB88D3403D2E084 /* NSString+BJCFSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EE70E01FC9F3AFED7B2CB45E528682 /* NSString+BJCFSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,105 +80,105 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		061ADB5D4944FC0EFE3B7E96A1AB20F4 /* Pods_YPFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15D2DA1E37FC319987C0AFBEF61CADC3 /* YPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPFoundation-dummy.m"; sourceTree = "<group>"; };
+		015DFE587DEFCD1641C10E67F0423233 /* BJCFCacheManagerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFCacheManagerTool.m; sourceTree = "<group>"; };
+		03927BB842A13D7019B33B68DAB284DF /* NSString+BJCF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCF.h"; sourceTree = "<group>"; };
+		05BFB98410F5D5285EB3E6AF2A0602C2 /* NSString+BJCFEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFEncoding.h"; sourceTree = "<group>"; };
+		061ADB5D4944FC0EFE3B7E96A1AB20F4 /* Pods_YPFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YPFoundation_Tests.framework; path = "Pods-YPFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB3323D9D57D311FEFB149E5AEA9CC2 /* NSString+BJCFSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFSize.m"; sourceTree = "<group>"; };
+		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		153531846C8F826DBE984D9EA701F331 /* NSString+BJCFEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFEncoding.m"; sourceTree = "<group>"; };
+		1D0CC1052F9A2CC15C275B1ADF4A2A10 /* NSString+BJCFVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFVersion.m"; sourceTree = "<group>"; };
+		20255685BA9A6CBF46C88C90B74C2978 /* NSString+BJCFVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFVersion.h"; sourceTree = "<group>"; };
 		2455424A7B022DA1D16DEB9C6371356D /* Pods-YPFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		28EDF3821F14D9D000B03172 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		28EDF3841F14D9D000B03172 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		28EDF3861F14D9D000B03172 /* BJCFAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFAction.h; sourceTree = "<group>"; };
-		28EDF3871F14D9D000B03172 /* BJCFAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFAction.m; sourceTree = "<group>"; };
-		28EDF3881F14D9D000B03172 /* BJCommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCommonDefines.h; sourceTree = "<group>"; };
-		28EDF3891F14D9D000B03172 /* BJHL-Foundation-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BJHL-Foundation-iOS.h"; sourceTree = "<group>"; };
-		28EDF38A1F14D9D000B03172 /* BJHL-Foundation-iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BJHL-Foundation-iOS.m"; sourceTree = "<group>"; };
-		28EDF38C1F14D9D000B03172 /* BJCFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFError.h; sourceTree = "<group>"; };
-		28EDF38D1F14D9D000B03172 /* BJCFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFError.m; sourceTree = "<group>"; };
-		28EDF38E1F14D9D000B03172 /* NSString+BJCFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFError.h"; sourceTree = "<group>"; };
-		28EDF38F1F14D9D000B03172 /* NSString+BJCFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFError.m"; sourceTree = "<group>"; };
-		28EDF3911F14D9D000B03172 /* BJCFCacheManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFCacheManagerTool.h; sourceTree = "<group>"; };
-		28EDF3921F14D9D000B03172 /* BJCFCacheManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFCacheManagerTool.m; sourceTree = "<group>"; };
-		28EDF3931F14D9D000B03172 /* BJCFFileManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFFileManagerTool.h; sourceTree = "<group>"; };
-		28EDF3941F14D9D000B03172 /* BJCFFileManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFFileManagerTool.m; sourceTree = "<group>"; };
-		28EDF3961F14D9D000B03172 /* BJCFJockey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFJockey.h; sourceTree = "<group>"; };
-		28EDF3971F14D9D000B03172 /* BJCFJockey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFJockey.m; sourceTree = "<group>"; };
-		28EDF3991F14D9D000B03172 /* BJCFKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFKeychain.h; sourceTree = "<group>"; };
-		28EDF39A1F14D9D000B03172 /* BJCFKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFKeychain.m; sourceTree = "<group>"; };
-		28EDF39B1F14D9D000B03172 /* BJCFKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFKeychainQuery.h; sourceTree = "<group>"; };
-		28EDF39C1F14D9D000B03172 /* BJCFKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFKeychainQuery.m; sourceTree = "<group>"; };
-		28EDF39E1F14D9D000B03172 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
-		28EDF3A01F14D9D000B03172 /* BJCFJSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFJSONUtils.h; sourceTree = "<group>"; };
-		28EDF3A11F14D9D000B03172 /* BJCFJSONUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFJSONUtils.m; sourceTree = "<group>"; };
-		28EDF3A21F14D9D000B03172 /* BJCFTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCFTimer.h; sourceTree = "<group>"; };
-		28EDF3A31F14D9D000B03172 /* BJCFTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCFTimer.m; sourceTree = "<group>"; };
-		28EDF3A41F14D9D000B03172 /* NSArray+BJCF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BJCF.h"; sourceTree = "<group>"; };
-		28EDF3A51F14D9D000B03172 /* NSArray+BJCF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BJCF.m"; sourceTree = "<group>"; };
-		28EDF3A61F14D9D000B03172 /* NSDate+BJCF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BJCF.h"; sourceTree = "<group>"; };
-		28EDF3A71F14D9D000B03172 /* NSDate+BJCF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BJCF.m"; sourceTree = "<group>"; };
-		28EDF3A81F14D9D000B03172 /* NSDateFormatter+BJCF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+BJCF.h"; sourceTree = "<group>"; };
-		28EDF3A91F14D9D000B03172 /* NSDateFormatter+BJCF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+BJCF.m"; sourceTree = "<group>"; };
-		28EDF3AA1F14D9D000B03172 /* NSDictionary+BJCF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BJCF.h"; sourceTree = "<group>"; };
-		28EDF3AB1F14D9D000B03172 /* NSDictionary+BJCF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BJCF.m"; sourceTree = "<group>"; };
-		28EDF3AC1F14D9D000B03172 /* NSDictionary+BJCFDataValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BJCFDataValue.h"; sourceTree = "<group>"; };
-		28EDF3AD1F14D9D000B03172 /* NSDictionary+BJCFDataValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BJCFDataValue.m"; sourceTree = "<group>"; };
-		28EDF3AE1F14D9D000B03172 /* NSObject+BJCFBlockKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BJCFBlockKVO.h"; sourceTree = "<group>"; };
-		28EDF3AF1F14D9D000B03172 /* NSObject+BJCFBlockKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BJCFBlockKVO.m"; sourceTree = "<group>"; };
-		28EDF3B01F14D9D000B03172 /* NSString+BJCF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCF.h"; sourceTree = "<group>"; };
-		28EDF3B11F14D9D000B03172 /* NSString+BJCF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCF.m"; sourceTree = "<group>"; };
-		28EDF3B21F14D9D000B03172 /* NSString+BJCFEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFEncoding.h"; sourceTree = "<group>"; };
-		28EDF3B31F14D9D000B03172 /* NSString+BJCFEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFEncoding.m"; sourceTree = "<group>"; };
-		28EDF3B41F14D9D000B03172 /* NSString+BJCFMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFMD5.h"; sourceTree = "<group>"; };
-		28EDF3B51F14D9D000B03172 /* NSString+BJCFMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFMD5.m"; sourceTree = "<group>"; };
-		28EDF3B61F14D9D000B03172 /* NSString+BJCFSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFSize.h"; sourceTree = "<group>"; };
-		28EDF3B71F14D9D000B03172 /* NSString+BJCFSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFSize.m"; sourceTree = "<group>"; };
-		28EDF3B81F14D9D000B03172 /* NSString+BJCFVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFVersion.h"; sourceTree = "<group>"; };
-		28EDF3B91F14D9D000B03172 /* NSString+BJCFVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFVersion.m"; sourceTree = "<group>"; };
-		28EDF3BA1F14D9D000B03172 /* NSURL+BJCFURLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+BJCFURLQuery.h"; sourceTree = "<group>"; };
-		28EDF3BB1F14D9D000B03172 /* NSURL+BJCFURLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+BJCFURLQuery.m"; sourceTree = "<group>"; };
-		28EDF3BC1F14D9D000B03172 /* UIDevice+BJCFIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BJCFIdentifier.h"; sourceTree = "<group>"; };
-		28EDF3BD1F14D9D000B03172 /* UIDevice+BJCFIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BJCFIdentifier.m"; sourceTree = "<group>"; };
+		2C81E0FF7CBACB46E30BE15E3603DE13 /* YPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPFoundation-dummy.m"; sourceTree = "<group>"; };
+		315559C8D227507A9E066C8CC9A1B4CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E326BEA2D99DFFC96E13514C92D011 /* YPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPFoundation-prefix.pch"; sourceTree = "<group>"; };
 		353853FF9F2071EEBA92BD9E9D96E588 /* Pods-YPFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3736081BE19094A350E06987C2DADABC /* BJCFKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFKeychainQuery.m; sourceTree = "<group>"; };
+		375280DD038F9E69A48D4043838D9B07 /* BJCFAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFAction.h; sourceTree = "<group>"; };
+		3A83A8E3853FE6B49C820AD4DDDFCB80 /* NSDictionary+BJCFDataValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BJCFDataValue.h"; sourceTree = "<group>"; };
+		3FA9C65FCE7D45EEDF24A3F27952901F /* UIDevice+BJCFIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BJCFIdentifier.h"; sourceTree = "<group>"; };
+		40427E47705AB9D66FF9BB0AA55928CF /* NSDateFormatter+BJCF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+BJCF.m"; sourceTree = "<group>"; };
 		4461B015B6E091F86472582396E18E32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44B01FBAF4298D4EDBC325309BD85628 /* Pods_YPFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B01FBAF4298D4EDBC325309BD85628 /* Pods_YPFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YPFoundation_Example.framework; path = "Pods-YPFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		473D6D0DD588344E5C1A4457D730ADA9 /* NSArray+BJCF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BJCF.m"; sourceTree = "<group>"; };
+		475A13FB2BCE394ECB7EAF56F14C8B92 /* NSObject+BJCFBlockKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BJCFBlockKVO.h"; sourceTree = "<group>"; };
 		4B1BDBFCA103661D235797B05066692B /* Pods-YPFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B4DE9901F20268504E6C6022603D625 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BFB1D18187096A9E63428B8EBE5CED7 /* Pods-YPFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		575FCB9EF4F8257510E620559D4D7D75 /* YPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		51EE70E01FC9F3AFED7B2CB45E528682 /* NSString+BJCFSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFSize.h"; sourceTree = "<group>"; };
+		5238DF37BFFB71E806198B0297591328 /* SSKeychain.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SSKeychain.strings; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		56D82F2B2C3B884DDFA915D2B07438F8 /* YPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPFoundation.xcconfig; sourceTree = "<group>"; };
+		5B00FAD893B61CCC0BD9242EFAF7F0C2 /* BJCFCacheManagerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFCacheManagerTool.h; sourceTree = "<group>"; };
 		5E96FD4D01991B6A5922DE8649E564A7 /* Pods-YPFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPFoundation_Example-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FA75AC67E358C3727EDC0B768D112F5 /* YPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F967676A69DF007109FCB836D4077DE /* NSURL+BJCFURLQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+BJCFURLQuery.h"; sourceTree = "<group>"; };
+		61BCF40F83409C806C969A2129B532AA /* BJCFTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFTimer.m; sourceTree = "<group>"; };
+		62B6256846A4281A2580347DE0516793 /* BJCFFileManagerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFFileManagerTool.m; sourceTree = "<group>"; };
+		6A63B8329717499B6E9665FDEC1F7490 /* YPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		6CF8C84E11B9BA9C7E424A19B02D3868 /* BJCFError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFError.m; sourceTree = "<group>"; };
+		6FA75AC67E358C3727EDC0B768D112F5 /* YPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YPFoundation.framework; path = YPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71026C3D06F8FB4D80DA3708C2D517B3 /* BJCFKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFKeychain.h; sourceTree = "<group>"; };
+		7174696CC3FF555E0F21FB9AF04B534C /* NSDateFormatter+BJCF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+BJCF.h"; sourceTree = "<group>"; };
+		72FED2A437E28C7F261E7A3BE140A2F0 /* NSArray+BJCF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+BJCF.h"; sourceTree = "<group>"; };
 		75FA2363598BBEF8D3EA0D3C21835DA5 /* Pods-YPFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7E1746F7974F19FF7AF61343D33C3994 /* Pods-YPFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E5EBAC8B2A8274A62A57CC6050983EC /* Pods-YPFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8CC4768BE49D53C95BD09D2A7A43B0B6 /* YPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		81174452DBA222EAEEA1A5D02C06DD86 /* BJCFKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFKeychainQuery.h; sourceTree = "<group>"; };
+		8368D93A53823CA92D75C7B731304BF7 /* NSString+BJCFMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFMD5.m"; sourceTree = "<group>"; };
+		86199BB82EFA0B283E31FC6081785E10 /* NSObject+BJCFBlockKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BJCFBlockKVO.m"; sourceTree = "<group>"; };
+		86708D51C2586C5FD7A9DBD3F07FC54A /* BJCFJockey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFJockey.h; sourceTree = "<group>"; };
+		8C57AA7AEB544972FC7F816002D54EA7 /* NSDictionary+BJCF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BJCF.h"; sourceTree = "<group>"; };
+		8C9D373DAD6002C1D499C7129321CFD9 /* BJCFJockey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFJockey.m; sourceTree = "<group>"; };
 		913C318D1F584A4701BFFBE6B1A17E94 /* Pods-YPFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
 		9183C73F208FF836FE310D6F3D4DB7D3 /* Pods-YPFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91A6DD8EFDBF5494C13F194AD7B55975 /* UIDevice+BJCFIdentifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BJCFIdentifier.m"; sourceTree = "<group>"; };
+		9300723ADE48D3A0AA79ADDAD0E82110 /* BJHL-Foundation-iOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BJHL-Foundation-iOS.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979BE42DB2522679540A1D4BF0604E62 /* NSDate+BJCF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+BJCF.h"; sourceTree = "<group>"; };
+		9B17EF256A1DCB4F41B0B562D1C25439 /* NSString+BJCF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCF.m"; sourceTree = "<group>"; };
 		9B39B387C37816D5DD47AC0225D85CF3 /* Pods-YPFoundation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPFoundation_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A170C93BF61E076FCCD9CFE291ACDD53 /* Pods-YPFoundation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPFoundation_Tests-resources.sh"; sourceTree = "<group>"; };
 		A36A884144C50B3A5F0784A667107BDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8F6277554D1D3691F25E18F33CB32D8 /* Pods-YPFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YPFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		A4C908667F9ADA0B2196D2EF3DA4A6F4 /* NSString+BJCFMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFMD5.h"; sourceTree = "<group>"; };
+		A84910C5F2218D4D50BBA2305218D732 /* NSString+BJCFError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+BJCFError.m"; sourceTree = "<group>"; };
+		A8F6277554D1D3691F25E18F33CB32D8 /* Pods-YPFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YPFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		B07AD667C91CA8AE63196D79CB216A7E /* BJCFTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFTimer.h; sourceTree = "<group>"; };
 		B99745DBB5E9DB4EF024AA263DC6EAF3 /* Pods-YPFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
-		C9E31EB5005406E4D5F4EE2B038CFD60 /* YPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPFoundation.xcconfig; sourceTree = "<group>"; };
+		BFDF880567117E32F4AD69B91364F0D9 /* BJCFKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFKeychain.m; sourceTree = "<group>"; };
+		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C62A17AED54618DFA7A945C547F78542 /* YPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YPFoundation.modulemap; sourceTree = "<group>"; };
+		C9C7839525D564B7588A5B4C06A45757 /* BJCommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCommonDefines.h; sourceTree = "<group>"; };
+		D1DF022BCE7B64B687E39FCA2E977E27 /* BJCFError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFError.h; sourceTree = "<group>"; };
 		D21112EA058C85194C8026B1537307B0 /* Pods-YPFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPFoundation_Example-resources.sh"; sourceTree = "<group>"; };
+		D21863F1D9C966829492B4BFE8CBA10C /* NSDictionary+BJCFDataValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BJCFDataValue.m"; sourceTree = "<group>"; };
+		D426DC2351B2381A9B617853AA63B986 /* NSDictionary+BJCF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BJCF.m"; sourceTree = "<group>"; };
+		D45B99D59E5476A42F709489E4FD7ABB /* BJCFJSONUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFJSONUtils.m; sourceTree = "<group>"; };
 		D639BD4E3CC286F55A850E3A2B68F93C /* Pods-YPFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E2CE7EEBDC3A0CA319D885A586BF055C /* Pods-YPFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YPFoundation_Tests.modulemap"; sourceTree = "<group>"; };
+		E2CE7EEBDC3A0CA319D885A586BF055C /* Pods-YPFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YPFoundation_Tests.modulemap"; sourceTree = "<group>"; };
+		E5D614FB870075CDDFD88C258F326EE1 /* NSString+BJCFError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+BJCFError.h"; sourceTree = "<group>"; };
+		E67B93573B105E640F89A1F6D2D213BC /* BJHL-Foundation-iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BJHL-Foundation-iOS.h"; sourceTree = "<group>"; };
+		E6BE8197510D55ABBAF3DF5CE774319F /* NSURL+BJCFURLQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+BJCFURLQuery.m"; sourceTree = "<group>"; };
 		E8509AF157F50D819004260201A04DA8 /* Pods-YPFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDF7B5BCA79E423BEBB510FE76BB0E72 /* YPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YPFoundation.modulemap; sourceTree = "<group>"; };
+		E9D086DDDC627A3AEB4D996FB79331E8 /* BJCFJSONUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFJSONUtils.h; sourceTree = "<group>"; };
+		F24C0C9D8F06D0404D648923C69EE819 /* NSDate+BJCF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BJCF.m"; sourceTree = "<group>"; };
+		F535A2C1541AF44960904DBB52177AFA /* BJCFAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BJCFAction.m; sourceTree = "<group>"; };
+		FCACB547DD97EA518F84E21095AA4298 /* BJCFFileManagerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BJCFFileManagerTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52DB2E02B01CF142950EAFE5C1267EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD1067B49808EA9ECC37519B9CED077 /* Foundation.framework in Frameworks */,
+				F5EFD1E4BED8DFED4F0B82BD68167D24 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C748A346812D2CF3EEA39A0181F1D27C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6098042469203DF3217B5252D7D08733 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF6CFBEA95255967A2F0AD81B77C07AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBAD123D5FB690A21FBF8856639A5A35 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,146 +211,154 @@
 			path = "Target Support Files/Pods-YPFoundation_Example";
 			sourceTree = "<group>";
 		};
-		28EDF3801F14D9D000B03172 /* Pod */ = {
+		31A5BDAEA966EE0986246E1702531B98 /* FileCache */ = {
 			isa = PBXGroup;
 			children = (
-				28EDF3811F14D9D000B03172 /* Assets */,
-				28EDF3831F14D9D000B03172 /* Classes */,
+				5B00FAD893B61CCC0BD9242EFAF7F0C2 /* BJCFCacheManagerTool.h */,
+				015DFE587DEFCD1641C10E67F0423233 /* BJCFCacheManagerTool.m */,
+				FCACB547DD97EA518F84E21095AA4298 /* BJCFFileManagerTool.h */,
+				62B6256846A4281A2580347DE0516793 /* BJCFFileManagerTool.m */,
 			);
-			name = Pod;
-			path = "Example/Pods/Target Support Files/YPFoundation/Pod";
-			sourceTree = "<group>";
-		};
-		28EDF3811F14D9D000B03172 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF3821F14D9D000B03172 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		28EDF3831F14D9D000B03172 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF3841F14D9D000B03172 /* .gitkeep */,
-				28EDF3851F14D9D000B03172 /* Action */,
-				28EDF3881F14D9D000B03172 /* BJCommonDefines.h */,
-				28EDF3891F14D9D000B03172 /* BJHL-Foundation-iOS.h */,
-				28EDF38A1F14D9D000B03172 /* BJHL-Foundation-iOS.m */,
-				28EDF38B1F14D9D000B03172 /* Error */,
-				28EDF3901F14D9D000B03172 /* FileCache */,
-				28EDF3951F14D9D000B03172 /* JockeyJS */,
-				28EDF3981F14D9D000B03172 /* Keychain */,
-				28EDF39F1F14D9D000B03172 /* Utils */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		28EDF3851F14D9D000B03172 /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF3861F14D9D000B03172 /* BJCFAction.h */,
-				28EDF3871F14D9D000B03172 /* BJCFAction.m */,
-			);
-			path = Action;
-			sourceTree = "<group>";
-		};
-		28EDF38B1F14D9D000B03172 /* Error */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF38C1F14D9D000B03172 /* BJCFError.h */,
-				28EDF38D1F14D9D000B03172 /* BJCFError.m */,
-				28EDF38E1F14D9D000B03172 /* NSString+BJCFError.h */,
-				28EDF38F1F14D9D000B03172 /* NSString+BJCFError.m */,
-			);
-			path = Error;
-			sourceTree = "<group>";
-		};
-		28EDF3901F14D9D000B03172 /* FileCache */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF3911F14D9D000B03172 /* BJCFCacheManagerTool.h */,
-				28EDF3921F14D9D000B03172 /* BJCFCacheManagerTool.m */,
-				28EDF3931F14D9D000B03172 /* BJCFFileManagerTool.h */,
-				28EDF3941F14D9D000B03172 /* BJCFFileManagerTool.m */,
-			);
+			name = FileCache;
 			path = FileCache;
 			sourceTree = "<group>";
 		};
-		28EDF3951F14D9D000B03172 /* JockeyJS */ = {
+		32A158465816DFF138B6715F5AA4A453 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28EDF3961F14D9D000B03172 /* BJCFJockey.h */,
-				28EDF3971F14D9D000B03172 /* BJCFJockey.m */,
+				315559C8D227507A9E066C8CC9A1B4CF /* Info.plist */,
+				C62A17AED54618DFA7A945C547F78542 /* YPFoundation.modulemap */,
+				56D82F2B2C3B884DDFA915D2B07438F8 /* YPFoundation.xcconfig */,
+				2C81E0FF7CBACB46E30BE15E3603DE13 /* YPFoundation-dummy.m */,
+				32E326BEA2D99DFFC96E13514C92D011 /* YPFoundation-prefix.pch */,
+				6A63B8329717499B6E9665FDEC1F7490 /* YPFoundation-umbrella.h */,
 			);
-			path = JockeyJS;
-			sourceTree = "<group>";
-		};
-		28EDF3981F14D9D000B03172 /* Keychain */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF3991F14D9D000B03172 /* BJCFKeychain.h */,
-				28EDF39A1F14D9D000B03172 /* BJCFKeychain.m */,
-				28EDF39B1F14D9D000B03172 /* BJCFKeychainQuery.h */,
-				28EDF39C1F14D9D000B03172 /* BJCFKeychainQuery.m */,
-				28EDF39D1F14D9D000B03172 /* SSKeychain.strings */,
-			);
-			path = Keychain;
-			sourceTree = "<group>";
-		};
-		28EDF39F1F14D9D000B03172 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF3A01F14D9D000B03172 /* BJCFJSONUtils.h */,
-				28EDF3A11F14D9D000B03172 /* BJCFJSONUtils.m */,
-				28EDF3A21F14D9D000B03172 /* BJCFTimer.h */,
-				28EDF3A31F14D9D000B03172 /* BJCFTimer.m */,
-				28EDF3A41F14D9D000B03172 /* NSArray+BJCF.h */,
-				28EDF3A51F14D9D000B03172 /* NSArray+BJCF.m */,
-				28EDF3A61F14D9D000B03172 /* NSDate+BJCF.h */,
-				28EDF3A71F14D9D000B03172 /* NSDate+BJCF.m */,
-				28EDF3A81F14D9D000B03172 /* NSDateFormatter+BJCF.h */,
-				28EDF3A91F14D9D000B03172 /* NSDateFormatter+BJCF.m */,
-				28EDF3AA1F14D9D000B03172 /* NSDictionary+BJCF.h */,
-				28EDF3AB1F14D9D000B03172 /* NSDictionary+BJCF.m */,
-				28EDF3AC1F14D9D000B03172 /* NSDictionary+BJCFDataValue.h */,
-				28EDF3AD1F14D9D000B03172 /* NSDictionary+BJCFDataValue.m */,
-				28EDF3AE1F14D9D000B03172 /* NSObject+BJCFBlockKVO.h */,
-				28EDF3AF1F14D9D000B03172 /* NSObject+BJCFBlockKVO.m */,
-				28EDF3B01F14D9D000B03172 /* NSString+BJCF.h */,
-				28EDF3B11F14D9D000B03172 /* NSString+BJCF.m */,
-				28EDF3B21F14D9D000B03172 /* NSString+BJCFEncoding.h */,
-				28EDF3B31F14D9D000B03172 /* NSString+BJCFEncoding.m */,
-				28EDF3B41F14D9D000B03172 /* NSString+BJCFMD5.h */,
-				28EDF3B51F14D9D000B03172 /* NSString+BJCFMD5.m */,
-				28EDF3B61F14D9D000B03172 /* NSString+BJCFSize.h */,
-				28EDF3B71F14D9D000B03172 /* NSString+BJCFSize.m */,
-				28EDF3B81F14D9D000B03172 /* NSString+BJCFVersion.h */,
-				28EDF3B91F14D9D000B03172 /* NSString+BJCFVersion.m */,
-				28EDF3BA1F14D9D000B03172 /* NSURL+BJCFURLQuery.h */,
-				28EDF3BB1F14D9D000B03172 /* NSURL+BJCFURLQuery.m */,
-				28EDF3BC1F14D9D000B03172 /* UIDevice+BJCFIdentifier.h */,
-				28EDF3BD1F14D9D000B03172 /* UIDevice+BJCFIdentifier.m */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		3EC97962F4FDC12DD4EF750607C8A977 /* YPFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				28EDF3801F14D9D000B03172 /* Pod */,
-				9CE776556D129BC7838E6982D7525F4D /* Support Files */,
-			);
-			name = YPFoundation;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YPFoundation";
 			sourceTree = "<group>";
 		};
 		411006BEDA8127FE1432A72F6F867B89 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3EC97962F4FDC12DD4EF750607C8A977 /* YPFoundation */,
+				7F76663C5E3340954415F2B1B350FC71 /* YPFoundation */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F990579C2E52276FD3C28227B49D60B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4375445BAFF3C2A43752C88F7B329A7C /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF022BCE7B64B687E39FCA2E977E27 /* BJCFError.h */,
+				6CF8C84E11B9BA9C7E424A19B02D3868 /* BJCFError.m */,
+				E5D614FB870075CDDFD88C258F326EE1 /* NSString+BJCFError.h */,
+				A84910C5F2218D4D50BBA2305218D732 /* NSString+BJCFError.m */,
+			);
+			name = Error;
+			path = Error;
+			sourceTree = "<group>";
+		};
+		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
+				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		566075CE28CDF13D1F1994B1D018B084 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9C7839525D564B7588A5B4C06A45757 /* BJCommonDefines.h */,
+				E67B93573B105E640F89A1F6D2D213BC /* BJHL-Foundation-iOS.h */,
+				9300723ADE48D3A0AA79ADDAD0E82110 /* BJHL-Foundation-iOS.m */,
+				645DFCF906A4422EF43B3B887151AACE /* Action */,
+				4375445BAFF3C2A43752C88F7B329A7C /* Error */,
+				31A5BDAEA966EE0986246E1702531B98 /* FileCache */,
+				88EA9AC9A5C831CD2DD5E15B2FF3C02E /* JockeyJS */,
+				71141A4D1E08A39E5AA8EA78C4079AD0 /* Keychain */,
+				74FB02C29995D37E2DC76B235E866570 /* Utils */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		645DFCF906A4422EF43B3B887151AACE /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				375280DD038F9E69A48D4043838D9B07 /* BJCFAction.h */,
+				F535A2C1541AF44960904DBB52177AFA /* BJCFAction.m */,
+			);
+			name = Action;
+			path = Action;
+			sourceTree = "<group>";
+		};
+		71141A4D1E08A39E5AA8EA78C4079AD0 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				71026C3D06F8FB4D80DA3708C2D517B3 /* BJCFKeychain.h */,
+				BFDF880567117E32F4AD69B91364F0D9 /* BJCFKeychain.m */,
+				81174452DBA222EAEEA1A5D02C06DD86 /* BJCFKeychainQuery.h */,
+				3736081BE19094A350E06987C2DADABC /* BJCFKeychainQuery.m */,
+				4396B8180A16A0A11375842C12524617 /* SSKeychain.strings */,
+			);
+			name = Keychain;
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		74FB02C29995D37E2DC76B235E866570 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9D086DDDC627A3AEB4D996FB79331E8 /* BJCFJSONUtils.h */,
+				D45B99D59E5476A42F709489E4FD7ABB /* BJCFJSONUtils.m */,
+				B07AD667C91CA8AE63196D79CB216A7E /* BJCFTimer.h */,
+				61BCF40F83409C806C969A2129B532AA /* BJCFTimer.m */,
+				72FED2A437E28C7F261E7A3BE140A2F0 /* NSArray+BJCF.h */,
+				473D6D0DD588344E5C1A4457D730ADA9 /* NSArray+BJCF.m */,
+				979BE42DB2522679540A1D4BF0604E62 /* NSDate+BJCF.h */,
+				F24C0C9D8F06D0404D648923C69EE819 /* NSDate+BJCF.m */,
+				7174696CC3FF555E0F21FB9AF04B534C /* NSDateFormatter+BJCF.h */,
+				40427E47705AB9D66FF9BB0AA55928CF /* NSDateFormatter+BJCF.m */,
+				8C57AA7AEB544972FC7F816002D54EA7 /* NSDictionary+BJCF.h */,
+				D426DC2351B2381A9B617853AA63B986 /* NSDictionary+BJCF.m */,
+				3A83A8E3853FE6B49C820AD4DDDFCB80 /* NSDictionary+BJCFDataValue.h */,
+				D21863F1D9C966829492B4BFE8CBA10C /* NSDictionary+BJCFDataValue.m */,
+				475A13FB2BCE394ECB7EAF56F14C8B92 /* NSObject+BJCFBlockKVO.h */,
+				86199BB82EFA0B283E31FC6081785E10 /* NSObject+BJCFBlockKVO.m */,
+				03927BB842A13D7019B33B68DAB284DF /* NSString+BJCF.h */,
+				9B17EF256A1DCB4F41B0B562D1C25439 /* NSString+BJCF.m */,
+				05BFB98410F5D5285EB3E6AF2A0602C2 /* NSString+BJCFEncoding.h */,
+				153531846C8F826DBE984D9EA701F331 /* NSString+BJCFEncoding.m */,
+				A4C908667F9ADA0B2196D2EF3DA4A6F4 /* NSString+BJCFMD5.h */,
+				8368D93A53823CA92D75C7B731304BF7 /* NSString+BJCFMD5.m */,
+				51EE70E01FC9F3AFED7B2CB45E528682 /* NSString+BJCFSize.h */,
+				0BB3323D9D57D311FEFB149E5AEA9CC2 /* NSString+BJCFSize.m */,
+				20255685BA9A6CBF46C88C90B74C2978 /* NSString+BJCFVersion.h */,
+				1D0CC1052F9A2CC15C275B1ADF4A2A10 /* NSString+BJCFVersion.m */,
+				5F967676A69DF007109FCB836D4077DE /* NSURL+BJCFURLQuery.h */,
+				E6BE8197510D55ABBAF3DF5CE774319F /* NSURL+BJCFURLQuery.m */,
+				3FA9C65FCE7D45EEDF24A3F27952901F /* UIDevice+BJCFIdentifier.h */,
+				91A6DD8EFDBF5494C13F194AD7B55975 /* UIDevice+BJCFIdentifier.m */,
+			);
+			name = Utils;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		78B2856628DED4EACF0C68AB98550EC9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				566075CE28CDF13D1F1994B1D018B084 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -356,40 +366,30 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				411006BEDA8127FE1432A72F6F867B89 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				E1B78453115137953E31DFED380698A8 /* Products */,
 				E5BEC582CC9915FA57D676CA872B3378 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9CE776556D129BC7838E6982D7525F4D /* Support Files */ = {
+		7F76663C5E3340954415F2B1B350FC71 /* YPFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				4B4DE9901F20268504E6C6022603D625 /* Info.plist */,
-				EDF7B5BCA79E423BEBB510FE76BB0E72 /* YPFoundation.modulemap */,
-				C9E31EB5005406E4D5F4EE2B038CFD60 /* YPFoundation.xcconfig */,
-				15D2DA1E37FC319987C0AFBEF61CADC3 /* YPFoundation-dummy.m */,
-				8CC4768BE49D53C95BD09D2A7A43B0B6 /* YPFoundation-prefix.pch */,
-				575FCB9EF4F8257510E620559D4D7D75 /* YPFoundation-umbrella.h */,
+				78B2856628DED4EACF0C68AB98550EC9 /* Pod */,
+				32A158465816DFF138B6715F5AA4A453 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YPFoundation";
+			name = YPFoundation;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		88EA9AC9A5C831CD2DD5E15B2FF3C02E /* JockeyJS */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				86708D51C2586C5FD7A9DBD3F07FC54A /* BJCFJockey.h */,
+				8C9D373DAD6002C1D499C7129321CFD9 /* BJCFJockey.m */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = JockeyJS;
+			path = JockeyJS;
 			sourceTree = "<group>";
 		};
 		E1B78453115137953E31DFED380698A8 /* Products */ = {
@@ -432,36 +432,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		381D52D04DF64BCC1426560A07F41BF2 /* Headers */ = {
+		4E7DFCF8E20554EF6CA519890E1538EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EDF3DD1F14D9D000B03172 /* NSDictionary+BJCFDataValue.h in Headers */,
-				082EE24D23842091B72CACF14F160E92 /* YPFoundation-umbrella.h in Headers */,
-				28EDF3D11F14D9D000B03172 /* BJCFJSONUtils.h in Headers */,
-				28EDF3CB1F14D9D000B03172 /* BJCFJockey.h in Headers */,
-				28EDF3C91F14D9D000B03172 /* BJCFFileManagerTool.h in Headers */,
-				28EDF3CF1F14D9D000B03172 /* BJCFKeychainQuery.h in Headers */,
-				28EDF3DB1F14D9D000B03172 /* NSDictionary+BJCF.h in Headers */,
-				28EDF3C71F14D9D000B03172 /* BJCFCacheManagerTool.h in Headers */,
-				28EDF3C01F14D9D000B03172 /* BJCommonDefines.h in Headers */,
-				28EDF3DF1F14D9D000B03172 /* NSObject+BJCFBlockKVO.h in Headers */,
-				28EDF3E71F14D9D000B03172 /* NSString+BJCFSize.h in Headers */,
-				28EDF3CD1F14D9D000B03172 /* BJCFKeychain.h in Headers */,
-				28EDF3D71F14D9D000B03172 /* NSDate+BJCF.h in Headers */,
-				28EDF3C51F14D9D000B03172 /* NSString+BJCFError.h in Headers */,
-				28EDF3E11F14D9D000B03172 /* NSString+BJCF.h in Headers */,
-				28EDF3E51F14D9D000B03172 /* NSString+BJCFMD5.h in Headers */,
-				28EDF3EB1F14D9D000B03172 /* NSURL+BJCFURLQuery.h in Headers */,
-				28EDF3BE1F14D9D000B03172 /* BJCFAction.h in Headers */,
-				28EDF3E31F14D9D000B03172 /* NSString+BJCFEncoding.h in Headers */,
-				28EDF3E91F14D9D000B03172 /* NSString+BJCFVersion.h in Headers */,
-				28EDF3D31F14D9D000B03172 /* BJCFTimer.h in Headers */,
-				28EDF3C11F14D9D000B03172 /* BJHL-Foundation-iOS.h in Headers */,
-				28EDF3D51F14D9D000B03172 /* NSArray+BJCF.h in Headers */,
-				28EDF3C31F14D9D000B03172 /* BJCFError.h in Headers */,
-				28EDF3ED1F14D9D000B03172 /* UIDevice+BJCFIdentifier.h in Headers */,
-				28EDF3D91F14D9D000B03172 /* NSDateFormatter+BJCF.h in Headers */,
+				DCB7B18175BC058E90931210586CB1DF /* BJCFAction.h in Headers */,
+				0CBD594907E3B12B4AC1DBB6B7376280 /* BJCFCacheManagerTool.h in Headers */,
+				8D99168008443C74A992A8B73302C5FD /* BJCFError.h in Headers */,
+				A962EF9E7ECDC3A552699C60C17019C1 /* BJCFFileManagerTool.h in Headers */,
+				C61EF326743CC2B95A4CB59996878D37 /* BJCFJockey.h in Headers */,
+				900730042CD88712048D95D1BB87B4C5 /* BJCFJSONUtils.h in Headers */,
+				E1335D869B028ABCC91F2F8B8AB3F311 /* BJCFKeychain.h in Headers */,
+				CCDCD783E7C63DFB05C240103D88FA8D /* BJCFKeychainQuery.h in Headers */,
+				573460D16F498B84650FB56DCB3EC1E8 /* BJCFTimer.h in Headers */,
+				A249D8F9B01032FB27177896D764979F /* BJCommonDefines.h in Headers */,
+				912AA59C2208149971BC62636EA1B446 /* BJHL-Foundation-iOS.h in Headers */,
+				39D04359F9EAD2E6094C03333F5F22F6 /* NSArray+BJCF.h in Headers */,
+				3A5D0CA55B577730694AACBCF0A88AA6 /* NSDate+BJCF.h in Headers */,
+				24CEA53636C46E69B2C909AA230C1980 /* NSDateFormatter+BJCF.h in Headers */,
+				1A4962094E3720C7F24418C27A6DC045 /* NSDictionary+BJCF.h in Headers */,
+				B15C763A68BAB434FEAD3EE499D2ADCC /* NSDictionary+BJCFDataValue.h in Headers */,
+				C174C2243E7D6A8FD74597F393F2F32B /* NSObject+BJCFBlockKVO.h in Headers */,
+				6E4600CEF58BECC5DAAB70F0919D78AE /* NSString+BJCF.h in Headers */,
+				00A6214E5A415ED45F9C026353B6C0F7 /* NSString+BJCFEncoding.h in Headers */,
+				5632E38720991E611BE0E48CB4E70984 /* NSString+BJCFError.h in Headers */,
+				C604E96F2A4B7532DF0DEF5F5FADA203 /* NSString+BJCFMD5.h in Headers */,
+				F8F2488361936C878CB88D3403D2E084 /* NSString+BJCFSize.h in Headers */,
+				154FBF5689EE7FAB8D6D4602CEF088FA /* NSString+BJCFVersion.h in Headers */,
+				DDA202F690640BCE8D74ADF4B570E17E /* NSURL+BJCFURLQuery.h in Headers */,
+				9BA7FFDA48B2690135932C8ED428534F /* UIDevice+BJCFIdentifier.h in Headers */,
+				62E30EB7DB97575C8D21DF8CBA316A21 /* YPFoundation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,9 +523,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 239432A48325D421B0124A0A11C7522B /* Build configuration list for PBXNativeTarget "YPFoundation" */;
 			buildPhases = (
-				6F10D720F5B19B41479759EA03FFE17A /* Sources */,
-				DF6CFBEA95255967A2F0AD81B77C07AA /* Frameworks */,
-				381D52D04DF64BCC1426560A07F41BF2 /* Headers */,
+				F17492EB196234C9F796EFBEBD52E8CC /* Sources */,
+				52DB2E02B01CF142950EAFE5C1267EAC /* Frameworks */,
+				4E7DFCF8E20554EF6CA519890E1538EA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -565,43 +565,44 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F10D720F5B19B41479759EA03FFE17A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28EDF3D41F14D9D000B03172 /* BJCFTimer.m in Sources */,
-				28EDF3E81F14D9D000B03172 /* NSString+BJCFSize.m in Sources */,
-				28EDF3BF1F14D9D000B03172 /* BJCFAction.m in Sources */,
-				28EDF3CC1F14D9D000B03172 /* BJCFJockey.m in Sources */,
-				28EDF3D81F14D9D000B03172 /* NSDate+BJCF.m in Sources */,
-				28EDF3C41F14D9D000B03172 /* BJCFError.m in Sources */,
-				28EDF3E41F14D9D000B03172 /* NSString+BJCFEncoding.m in Sources */,
-				28EDF3DC1F14D9D000B03172 /* NSDictionary+BJCF.m in Sources */,
-				28EDF3DA1F14D9D000B03172 /* NSDateFormatter+BJCF.m in Sources */,
-				28EDF3CE1F14D9D000B03172 /* BJCFKeychain.m in Sources */,
-				28EDF3EA1F14D9D000B03172 /* NSString+BJCFVersion.m in Sources */,
-				28EDF3CA1F14D9D000B03172 /* BJCFFileManagerTool.m in Sources */,
-				28EDF3EC1F14D9D000B03172 /* NSURL+BJCFURLQuery.m in Sources */,
-				28EDF3D01F14D9D000B03172 /* BJCFKeychainQuery.m in Sources */,
-				28EDF3C21F14D9D000B03172 /* BJHL-Foundation-iOS.m in Sources */,
-				28EDF3D21F14D9D000B03172 /* BJCFJSONUtils.m in Sources */,
-				28EDF3DE1F14D9D000B03172 /* NSDictionary+BJCFDataValue.m in Sources */,
-				28EDF3E01F14D9D000B03172 /* NSObject+BJCFBlockKVO.m in Sources */,
-				28EDF3E21F14D9D000B03172 /* NSString+BJCF.m in Sources */,
-				28EDF3C81F14D9D000B03172 /* BJCFCacheManagerTool.m in Sources */,
-				C322E7B559D4F94757C5A85D956E5B72 /* YPFoundation-dummy.m in Sources */,
-				28EDF3EE1F14D9D000B03172 /* UIDevice+BJCFIdentifier.m in Sources */,
-				28EDF3D61F14D9D000B03172 /* NSArray+BJCF.m in Sources */,
-				28EDF3E61F14D9D000B03172 /* NSString+BJCFMD5.m in Sources */,
-				28EDF3C61F14D9D000B03172 /* NSString+BJCFError.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D21C3D0B48AF0CBC52CD9078F5A4C8B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E87C83414DACB78A0495B9EAE152D8E /* Pods-YPFoundation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17492EB196234C9F796EFBEBD52E8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01808B8F836A5B8A71D75B3DFC179257 /* BJCFAction.m in Sources */,
+				4D0E2D4D52D29F42F024747211C2565B /* BJCFCacheManagerTool.m in Sources */,
+				B509358A53EA871D34D6A93DE6298DE5 /* BJCFError.m in Sources */,
+				1E90C9706591BDCDD20BB43779B99B34 /* BJCFFileManagerTool.m in Sources */,
+				3FBF58D43961D7836CDB2EEDB4F9E9B7 /* BJCFJockey.m in Sources */,
+				A54A1F865719930E586FECF8C7ED3827 /* BJCFJSONUtils.m in Sources */,
+				D4A91D8B60C04368A4957FD90B90120D /* BJCFKeychain.m in Sources */,
+				31B6AB2622BADE0B3EA6D3710C3A426C /* BJCFKeychainQuery.m in Sources */,
+				9D01213303F470DB8DAAAE9681FCFAA8 /* BJCFTimer.m in Sources */,
+				539196D983EEBD2A7BE58ECE07066D47 /* BJHL-Foundation-iOS.m in Sources */,
+				A20F9EC50DCFCD379A24825ECD3749AA /* NSArray+BJCF.m in Sources */,
+				D906720402FA1EAC9DC0C223749AEC79 /* NSDate+BJCF.m in Sources */,
+				34F83A4C97F72769327FF00FDCCCAB91 /* NSDateFormatter+BJCF.m in Sources */,
+				A0ABCA1B999D6A416A49FDE3E573174E /* NSDictionary+BJCF.m in Sources */,
+				0D3934B10EA64398FD13054E313DDAA8 /* NSDictionary+BJCFDataValue.m in Sources */,
+				905295841F190E2815FD84736375E42B /* NSObject+BJCFBlockKVO.m in Sources */,
+				2F4BBEF70F8097E9E0A8F03F9D7252EB /* NSString+BJCF.m in Sources */,
+				4FE720D91C2125FA1DE6A1F5EB163EFE /* NSString+BJCFEncoding.m in Sources */,
+				82C04F97E68E95F7EED60E42695A38D9 /* NSString+BJCFError.m in Sources */,
+				CCA2F277C9BE807972BE89F05DE958D8 /* NSString+BJCFMD5.m in Sources */,
+				DE35C082B04894391054D64B6CF8D98D /* NSString+BJCFSize.m in Sources */,
+				4655AE4FE29172BB00F257760710C8C4 /* NSString+BJCFVersion.m in Sources */,
+				CE4EC2C283B75413F53CA651479A5EA6 /* NSURL+BJCFURLQuery.m in Sources */,
+				523D45B54BD49B92472E1FA07004AC89 /* SSKeychain.strings in Sources */,
+				90C9A69D3CF52F2F1A6CFF7EA38BBBF6 /* UIDevice+BJCFIdentifier.m in Sources */,
+				F787E166D62635B53B8EAFCFC991C92A /* YPFoundation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,12 +626,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		28EDF39D1F14D9D000B03172 /* SSKeychain.strings */ = {
+		4396B8180A16A0A11375842C12524617 /* SSKeychain.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28EDF39E1F14D9D000B03172 /* en */,
+				5238DF37BFFB71E806198B0297591328 /* SSKeychain.strings */,
 			);
 			name = SSKeychain.strings;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -722,7 +724,7 @@
 		};
 		42C7E7EB743DD2E7608FC59D1C00FAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E31EB5005406E4D5F4EE2B038CFD60 /* YPFoundation.xcconfig */;
+			baseConfigurationReference = 56D82F2B2C3B884DDFA915D2B07438F8 /* YPFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -906,7 +908,7 @@
 		};
 		FD6F398D2EF9787093DE0FC5C0124C3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E31EB5005406E4D5F4EE2B038CFD60 /* YPFoundation.xcconfig */;
+			baseConfigurationReference = 56D82F2B2C3B884DDFA915D2B07438F8 /* YPFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
