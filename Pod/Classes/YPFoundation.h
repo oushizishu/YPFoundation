@@ -42,6 +42,6 @@
 //NSArray
 #import "NSArray+BJCF.h"
 
-@interface BJHL_Foundation_iOS : NSObject
+@interface YPFoundation : NSObject
 
 @end

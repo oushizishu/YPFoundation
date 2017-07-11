@@ -6,8 +6,8 @@
 //
 //
 
-#import "BJHL-Foundation-iOS.h"
+#import "YPFoundation.h"
 
-@implementation BJHL_Foundation_iOS
+@implementation YPFoundation
 
 @end
