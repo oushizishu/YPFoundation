@@ -1,0 +1,16 @@
+PODS:
+  - YPFoundation (0.1.0)
+
+DEPENDENCIES:
+  - YPFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  YPFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YPFoundation: 26a93b191ef292d5e06491dc318a7ee3ce65cdd0
+
+PODFILE CHECKSUM: 9d0dec717d7c0608783cc10ef3cf3858c4ae7b8a
+
+COCOAPODS: 1.2.1
